@@ -13,7 +13,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-gem 'pg',  '0.20.0'
+#gem 'pg',  '0.20.0'
 
 
 gem 'bootstrap-sass', '3.3.7'
@@ -83,7 +83,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-#  gem 'pg',  '0.20.0'
+  gem 'pg' #,  '0.20.0'
   gem 'fog', '1.42'
   
 end
